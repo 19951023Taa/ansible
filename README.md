@@ -1,5 +1,5 @@
 変更確認コマンド    
-ansible-playbook -i inventory --private-key pemキー install_nginx.yml --check    
+ansible-playbook -i inventory --private-key pemキー main.yaml --check    
     
 適用コマンド    
-ansible-playbook -i inventory --private-key pemキー install_nginx.yml    
+ansible-playbook -i inventory --private-key pemキー main.yaml
