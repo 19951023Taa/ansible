@@ -1,0 +1,7 @@
+[devservers]
+ansible-dev-target1 ansible_host=private ip ansible_connection=ssh ansible_user=ec2-user
+ansible-dev-target2 ansible_host=private ip ansible_connection=ssh ansible_user=ec2-user
+
+[testservers]
+ansible-test-target1 ansible_host=private ip ansible_connection=ssh ansible_user=ec2-user
+ansible-test-target2 ansible_host=private ip ansible_connection=ssh ansible_user=ec2-user
