@@ -1,0 +1,14 @@
+# roles/user_role/tasks/main.yml
+# ユーザ作成
+- name: Create user
+  user:
+    name: testuser_1
+    group: users
+    createhome: yes
+    shell: /bin/bash
+
+# pemキーによる接続を許可
+- name: Add authorized key for new user
+  authorized_key:
+    user: testuser_1
+    key: "{{ lookup('file', '~/.ssh/authorized_keys') }}"
