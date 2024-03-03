@@ -1,4 +1,4 @@
-# roles/user_role/tasks/main.yml
+# roles/user_role/tasks/main.yaml
 # ユーザ作成
 - name: Create user
   user:

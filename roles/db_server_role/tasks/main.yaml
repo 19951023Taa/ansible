@@ -1,4 +1,4 @@
-# roles/db_server_role/tasks/main.yml
+# roles/db_server_role/tasks/main.yaml
 - name: Install PostgreSQL
   yum:
     name: postgresql15-server

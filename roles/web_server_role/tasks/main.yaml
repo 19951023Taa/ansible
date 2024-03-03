@@ -1,4 +1,4 @@
-# roles/web_server_role/tasks/main.yml
+# roles/web_server_role/tasks/main.yaml
 - name: Install the latest version of nginx
   command: dnf -y install nginx
 
